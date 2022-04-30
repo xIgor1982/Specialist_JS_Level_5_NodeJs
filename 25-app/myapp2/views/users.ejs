@@ -1,0 +1,6 @@
+<% layout('boilerplate') -%>
+<% script('/javascripts/foo.js') -%>
+<% stylesheet('/stylesheets/foo.css') -%>
+<p>I am the template</p>
+<% block('header', "<p>это шапка</p>") -%>
+<% block('footer', "<p>это подвал</p>") -%>
